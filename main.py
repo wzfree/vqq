@@ -41,12 +41,12 @@ def decode_json_str(s):
 
 
 def notify(title, message):
-    if not CONFIG.SCKEY:
-        log.info('未配置SCKEY,正在跳过推送')
+    if not CONFIG.SCTKEY:
+        log.info('未配置SCTKEY,正在跳过推送')
         return
 
     log.info('准备推送通知...')
-    url = 'https://sc.ftqq.com/{}.send'.format(CONFIG.SCKEY)
+    url = 'https://sctapi.ftqq.com/{}.send'.format(CONFIG.SCTKEY)
     payload = {'text': '{}'.format(title), 'desp': message}
 
     response = to_python(requests.post(url, data=payload).text)
