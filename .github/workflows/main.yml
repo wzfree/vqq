@@ -8,7 +8,7 @@ on:
 env:
   RUN_ENV: 'prod'
   TZ: 'Asia/Shanghai'
-  SCKEY: ${{ secrets.SCKEY }}
+  SCTKEY: ${{ secrets.SCTKEY }}
   AUTH_REFRESH_URL: ${{ secrets.AUTH_REFRESH_URL }}
   AUTH_REFRESH_COOKIE: ${{ secrets.AUTH_REFRESH_COOKIE }}
 
