@@ -12,7 +12,7 @@ Tencent Video Helper
 ### 部署
 - `AUTH_REFRESH_URL`    腾讯视频官网, 打开浏览器控制台网络搜索`auth_refresh`相关的请求[图片教程](https://cdn.jsdelivr.net/gh/BlueskyClouds/Script/img/2020/11/1/img/v_1.jpg)
 - `AUTH_REFRESH_COOKIE` 从上面找到的请求中复制`Cookie`[图片教程](https://cdn.jsdelivr.net/gh/BlueskyClouds/Script/img/2020/11/1/img/v_2.jpg)
-- `SCKEY` 详情参考 [SERVER酱官网](http://sc.ftqq.com/3.version)
+- `SCTKEY` 详情参考 [SERVER酱官网](http://sct.ftqq.com/)
 
 
 #### 其他
